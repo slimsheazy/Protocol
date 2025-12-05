@@ -1,3 +1,4 @@
+import 'dotenv/config';
 import React, { useState, useCallback } from 'react';
 import { generateWorkflow } from './services/geminiService';
 import { Complexity, Tone, WorkflowResult } from './types';
